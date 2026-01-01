@@ -2,11 +2,59 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Session_2_Dennis_Hilfinger.CompetedBeforePage"
-             Title="CompetedBeforePage">
-    <VerticalStackLayout>
+             Title="">
+    <Grid 
+        RowDefinitions="*, 5*, *"
+        ColumnDefinitions="*"
+        VerticalOptions="Fill"
+        HorizontalOptions="Fill">
+        <Grid 
+            ColumnDefinitions="*,4*,*"
+            HorizontalOptions="Fill"
+            VerticalOptions="End">
+            <Image 
+                Source="logo_2015_full_colour.png"
+                Margin="20"/>
+            <Label 
+                Grid.Column="1"
+                FontSize="40"
+                Text="MarathonSkills 2015"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                Padding="20"/>
+        </Grid>
+
+        <ScrollView
+    Grid.Row="1">
+            <VerticalStackLayout
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                Spacing="50">
+                <Button 
+                    Text="I have competed before"
+                    WidthRequest="400"
+                    HeightRequest="100"
+                    FontSize="20"
+                    Style="{StaticResource ButtonYellow}"
+                    Clicked="Login"/>
+                <Button 
+                    Text="I am a new competitor"
+                    WidthRequest="400"
+                    HeightRequest="100"
+                    FontSize="20"
+                    Style="{StaticResource ButtonYellow}"
+                    Clicked="Register"/>
+            </VerticalStackLayout>
+        </ScrollView>
+
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    x:Name="TimerLabel"
+    Grid.Row="2"
+    HorizontalOptions="Fill"
+    VerticalOptions="End"
+    Text="0 days 0 hours and 0 minutes until the race starts!"
+    HorizontalTextAlignment="Center"
+    Padding="20"
+    Style="{StaticResource TimerLabel}"/>
+    </Grid>
 </ContentPage>
