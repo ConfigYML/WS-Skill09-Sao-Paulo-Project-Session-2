@@ -1,0 +1,20 @@
+﻿namespace Session_2_Dennis_Hilfinger
+{
+    public partial class AppShell : Shell
+    {
+        public AppShell()
+        {
+            InitializeComponent();
+            Routing.RegisterRoute(nameof(SponsorRunnerPage), typeof(SponsorRunnerPage));
+            Routing.RegisterRoute(nameof(SponsorshipConfirmationPage), typeof(SponsorshipConfirmationPage));
+            Routing.RegisterRoute(nameof(FindOutMorePage), typeof(FindOutMorePage));
+            Routing.RegisterRoute(nameof(CharityListPage), typeof(CharityListPage));
+            Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
+            Routing.RegisterRoute(nameof(RunnerPage), typeof(RunnerPage));
+            Routing.RegisterRoute(nameof(CoordinatorPage), typeof(CoordinatorPage));
+            Routing.RegisterRoute(nameof(AdminPage), typeof(AdminPage));
+            Routing.RegisterRoute(nameof(CompetedBeforePage), typeof(CompetedBeforePage));
+            Routing.RegisterRoute(nameof(RegisterPage), typeof(RegisterPage));
+        }
+    }
+}
