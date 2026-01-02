@@ -12,7 +12,7 @@ Navigate into the Executable/net9.0-windows10.0.19041.0/win10-x64 folder and dou
 The timer uses the 5th of September 2026 06:00:00 as start time of the event to ensure that the functionality is possible.
 
 # Added users
-User with email 'dennish@gmail.com' was added with password 'qwerT1!'
+User with email 'dennish@gmail.com' was added with password 'qwerT1!!'
 
 # Missing functionality
 Edit your profile functionality is missing and register for event page is mostly missing
