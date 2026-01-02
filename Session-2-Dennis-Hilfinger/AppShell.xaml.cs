@@ -16,6 +16,8 @@
             Routing.RegisterRoute(nameof(CompetedBeforePage), typeof(CompetedBeforePage));
             Routing.RegisterRoute(nameof(RegisterPage), typeof(RegisterPage));
             Routing.RegisterRoute(nameof(RegisterEventPage), typeof(RegisterEventPage));
+            Routing.RegisterRoute(nameof(EditProfilePage), typeof(EditProfilePage));
+            Routing.RegisterRoute(nameof(EventConfirmationPage), typeof(EventConfirmationPage));
         }
     }
 }

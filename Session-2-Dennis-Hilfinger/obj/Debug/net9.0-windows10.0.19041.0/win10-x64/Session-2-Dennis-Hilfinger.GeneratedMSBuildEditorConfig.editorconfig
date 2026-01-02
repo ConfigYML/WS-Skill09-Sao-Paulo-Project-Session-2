@@ -78,6 +78,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = Session_2_Dennis_Hilfinger
 build_metadata.AdditionalFiles.TargetPath = CoordinatorPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CoordinatorPage.xaml
 
+[C:/2_WorldSkills/Training/Sao_Paulo_2015/WS-Skill09-Sao-Paulo-Project-Session-2/Session-2-Dennis-Hilfinger/EditProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Session_2_Dennis_Hilfinger.EditProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = EditProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = EditProfilePage.xaml
+
+[C:/2_WorldSkills/Training/Sao_Paulo_2015/WS-Skill09-Sao-Paulo-Project-Session-2/Session-2-Dennis-Hilfinger/EventConfirmationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Session_2_Dennis_Hilfinger.EventConfirmationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EventConfirmationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EventConfirmationPage.xaml
+
 [C:/2_WorldSkills/Training/Sao_Paulo_2015/WS-Skill09-Sao-Paulo-Project-Session-2/Session-2-Dennis-Hilfinger/FindOutMorePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Session_2_Dennis_Hilfinger.FindOutMorePage.xaml

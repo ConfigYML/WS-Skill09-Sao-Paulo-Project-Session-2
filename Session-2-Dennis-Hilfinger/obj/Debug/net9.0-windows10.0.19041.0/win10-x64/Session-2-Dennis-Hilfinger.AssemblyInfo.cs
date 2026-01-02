@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Session-2-Dennis-Hilfinger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0d2ea7254fb071ad82d7d9677e6dbdd642bd6638")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e25d6df27f734a3b44dad4cb8f76027cbcfe69c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Session-2-Dennis-Hilfinger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Session-2-Dennis-Hilfinger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

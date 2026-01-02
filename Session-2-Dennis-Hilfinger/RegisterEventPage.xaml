@@ -13,15 +13,22 @@
         HorizontalOptions="Fill"
         VerticalOptions="End">
             <Image 
-    Source="logo_2015_full_colour.png"
-    Margin="20"/>
+                Source="logo_2015_full_colour.png"
+                Margin="20"/>
             <Label 
-    Grid.Column="1"
-    FontSize="40"
-    Text="MarathonSkills 2015"
-    HorizontalTextAlignment="Center"
-    VerticalTextAlignment="Center"
-    Padding="20"/>
+                Grid.Column="1"
+                FontSize="40"
+                Text="MarathonSkills 2015"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                Padding="20"/>
+            <Button 
+                Grid.Column="2"
+                Text="Logout"
+                WidthRequest="200"
+                HeightRequest="50"
+                Style="{StaticResource ButtonGreen}"
+                Clicked="Logout"/>
         </Grid>
 
         <ScrollView
@@ -48,49 +55,66 @@
                     <VerticalStackLayout 
                     WidthRequest="250"
                     Spacing="10" 
-                    Padding="25">
+                    Padding="25" 
+                        VerticalOptions="Start">
                         <Label 
                             Text="Competition events"
                             HorizontalOptions="Center"
                             FontSize="28"/>
+                        <VerticalStackLayout 
+                            x:Name="EventTypeCheckboxes"/>
                         <Label 
                             Text="Sponsorship details"
                             HorizontalOptions="Center"
                             FontSize="28"/>
+                        <Picker 
+                            x:Name="CharityPicker"
+                            Title="Charity:"/>
+                        <Entry 
+                            x:Name="SponsorshipTargetEntry"
+                            Placeholder="Target to raise"/>
+
+                        <HorizontalStackLayout
+                            Spacing="15"
+                            HorizontalOptions="Center">
+                            <Button 
+                                Text="Register"
+                                WidthRequest="80"
+                                HeightRequest="50"
+                                Style="{StaticResource ButtonBlue}"
+                                Clicked="Register"/>
+                            <Button 
+                                Text="Cancel"
+                                WidthRequest="80"
+                                HeightRequest="50"
+                                Style="{StaticResource ButtonYellow}"
+                                Clicked="Cancel"/>
+                        </HorizontalStackLayout>
 
                     </VerticalStackLayout>
                     <VerticalStackLayout 
                     Grid.Column="2"
                     WidthRequest="250"
                     Spacing="10" 
-                    Padding="50">
+                    Padding="25"
+                        VerticalOptions="Start">
                         <Label 
                             Text="Race kit options"
                             HorizontalOptions="Center"
                             FontSize="28"/>
+                        <VerticalStackLayout 
+                            x:Name="RaceKitOptionRadioButtons"/>
                         <Label 
                             Text="Registration costs"
                             HorizontalOptions="Center"
                             FontSize="28"/>
+                        <Label 
+                            x:Name="CalculatedValueLabel"
+                            Text="$0"
+                            FontSize="50"/>
                     </VerticalStackLayout>
 
                 </Grid>
-                <HorizontalStackLayout
-                Spacing="15"
-                HorizontalOptions="Center">
-                    <Button 
-                    Text="Register"
-                    WidthRequest="250"
-                    HeightRequest="50"
-                    Style="{StaticResource ButtonBlue}"
-                    Clicked="Register"/>
-                    <Button 
-                    Text="Cancel"
-                    WidthRequest="250"
-                    HeightRequest="50"
-                    Style="{StaticResource ButtonYellow}"
-                    Clicked="Cancel"/>
-                </HorizontalStackLayout>
             </VerticalStackLayout>
 
         </ScrollView>

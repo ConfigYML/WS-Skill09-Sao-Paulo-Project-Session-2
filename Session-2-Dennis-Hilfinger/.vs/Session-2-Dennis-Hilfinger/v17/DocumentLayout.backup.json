@@ -3,24 +3,19 @@
   "WorkspaceRootPath": "C:\\2_WorldSkills\\Training\\Sao_Paulo_2015\\WS-Skill09-Sao-Paulo-Project-Session-2\\Session-2-Dennis-Hilfinger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DAF84D9D-0FE1-4FB0-BBD8-9FB33039FCC3}|Session-2-Dennis-Hilfinger.csproj|c:\\2_worldskills\\training\\sao_paulo_2015\\ws-skill09-sao-paulo-project-session-2\\session-2-dennis-hilfinger\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAF84D9D-0FE1-4FB0-BBD8-9FB33039FCC3}|Session-2-Dennis-Hilfinger.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAF84D9D-0FE1-4FB0-BBD8-9FB33039FCC3}|Session-2-Dennis-Hilfinger.csproj|c:\\2_worldskills\\training\\sao_paulo_2015\\ws-skill09-sao-paulo-project-session-2\\session-2-dennis-hilfinger\\registereventpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF84D9D-0FE1-4FB0-BBD8-9FB33039FCC3}|Session-2-Dennis-Hilfinger.csproj|solutionrelative:registereventpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAF84D9D-0FE1-4FB0-BBD8-9FB33039FCC3}|Session-2-Dennis-Hilfinger.csproj|c:\\2_worldskills\\training\\sao_paulo_2015\\ws-skill09-sao-paulo-project-session-2\\session-2-dennis-hilfinger\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAF84D9D-0FE1-4FB0-BBD8-9FB33039FCC3}|Session-2-Dennis-Hilfinger.csproj|solutionrelative:registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MarathonSkillsDB/True/SqlTable/dbo.Registration.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DAF84D9D-0FE1-4FB0-BBD8-9FB33039FCC3}|Session-2-Dennis-Hilfinger.csproj|c:\\2_worldskills\\training\\sao_paulo_2015\\ws-skill09-sao-paulo-project-session-2\\session-2-dennis-hilfinger\\registereventpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DAF84D9D-0FE1-4FB0-BBD8-9FB33039FCC3}|Session-2-Dennis-Hilfinger.csproj|solutionrelative:registereventpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAF84D9D-0FE1-4FB0-BBD8-9FB33039FCC3}|Session-2-Dennis-Hilfinger.csproj|c:\\2_worldskills\\training\\sao_paulo_2015\\ws-skill09-sao-paulo-project-session-2\\session-2-dennis-hilfinger\\registereventpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAF84D9D-0FE1-4FB0-BBD8-9FB33039FCC3}|Session-2-Dennis-Hilfinger.csproj|solutionrelative:registereventpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAF84D9D-0FE1-4FB0-BBD8-9FB33039FCC3}|Session-2-Dennis-Hilfinger.csproj|c:\\2_worldskills\\training\\sao_paulo_2015\\ws-skill09-sao-paulo-project-session-2\\session-2-dennis-hilfinger\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DAF84D9D-0FE1-4FB0-BBD8-9FB33039FCC3}|Session-2-Dennis-Hilfinger.csproj|solutionrelative:registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DAF84D9D-0FE1-4FB0-BBD8-9FB33039FCC3}|Session-2-Dennis-Hilfinger.csproj|c:\\2_worldskills\\training\\sao_paulo_2015\\ws-skill09-sao-paulo-project-session-2\\session-2-dennis-hilfinger\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF84D9D-0FE1-4FB0-BBD8-9FB33039FCC3}|Session-2-Dennis-Hilfinger.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 466,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,28 +33,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\2_WorldSkills\\Training\\Sao_Paulo_2015\\WS-Skill09-Sao-Paulo-Project-Session-2\\Session-2-Dennis-Hilfinger\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\2_WorldSkills\\Training\\Sao_Paulo_2015\\WS-Skill09-Sao-Paulo-Project-Session-2\\Session-2-Dennis-Hilfinger\\AppShell.xaml.cs",
-              "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T19:57:27.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterEventPage.xaml.cs",
-              "DocumentMoniker": "C:\\2_WorldSkills\\Training\\Sao_Paulo_2015\\WS-Skill09-Sao-Paulo-Project-Session-2\\Session-2-Dennis-Hilfinger\\RegisterEventPage.xaml.cs",
-              "RelativeDocumentMoniker": "RegisterEventPage.xaml.cs",
-              "ToolTip": "C:\\2_WorldSkills\\Training\\Sao_Paulo_2015\\WS-Skill09-Sao-Paulo-Project-Session-2\\Session-2-Dennis-Hilfinger\\RegisterEventPage.xaml.cs",
-              "RelativeToolTip": "RegisterEventPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T19:49:34.653Z",
+              "DocumentIndex": 1,
+              "Title": "dbo.Registration [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MarathonSkillsDB/True/SqlTable/dbo.Registration.sql",
+              "ToolTip": "dbo.Registration [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-02T00:17:20.924Z",
               "EditorCaption": ""
             },
             {
@@ -70,35 +49,35 @@
               "RelativeDocumentMoniker": "RegisterEventPage.xaml",
               "ToolTip": "C:\\2_WorldSkills\\Training\\Sao_Paulo_2015\\WS-Skill09-Sao-Paulo-Project-Session-2\\Session-2-Dennis-Hilfinger\\RegisterEventPage.xaml",
               "RelativeToolTip": "RegisterEventPage.xaml",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFsAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-01T19:48:44.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterPage.xaml.cs",
-              "DocumentMoniker": "C:\\2_WorldSkills\\Training\\Sao_Paulo_2015\\WS-Skill09-Sao-Paulo-Project-Session-2\\Session-2-Dennis-Hilfinger\\RegisterPage.xaml.cs",
-              "RelativeDocumentMoniker": "RegisterPage.xaml.cs",
-              "ToolTip": "C:\\2_WorldSkills\\Training\\Sao_Paulo_2015\\WS-Skill09-Sao-Paulo-Project-Session-2\\Session-2-Dennis-Hilfinger\\RegisterPage.xaml.cs",
-              "RelativeToolTip": "RegisterPage.xaml.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAIwGYAAABMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RegisterEventPage.xaml.cs",
+              "DocumentMoniker": "C:\\2_WorldSkills\\Training\\Sao_Paulo_2015\\WS-Skill09-Sao-Paulo-Project-Session-2\\Session-2-Dennis-Hilfinger\\RegisterEventPage.xaml.cs",
+              "RelativeDocumentMoniker": "RegisterEventPage.xaml.cs",
+              "ToolTip": "C:\\2_WorldSkills\\Training\\Sao_Paulo_2015\\WS-Skill09-Sao-Paulo-Project-Session-2\\Session-2-Dennis-Hilfinger\\RegisterEventPage.xaml.cs",
+              "RelativeToolTip": "RegisterEventPage.xaml.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAAAKgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T19:08:03.779Z",
+              "WhenOpened": "2026-01-01T19:49:34.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterPage.xaml",
-              "DocumentMoniker": "C:\\2_WorldSkills\\Training\\Sao_Paulo_2015\\WS-Skill09-Sao-Paulo-Project-Session-2\\Session-2-Dennis-Hilfinger\\RegisterPage.xaml",
-              "RelativeDocumentMoniker": "RegisterPage.xaml",
-              "ToolTip": "C:\\2_WorldSkills\\Training\\Sao_Paulo_2015\\WS-Skill09-Sao-Paulo-Project-Session-2\\Session-2-Dennis-Hilfinger\\RegisterPage.xaml",
-              "RelativeToolTip": "RegisterPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-01T18:23:27.903Z",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\2_WorldSkills\\Training\\Sao_Paulo_2015\\WS-Skill09-Sao-Paulo-Project-Session-2\\Session-2-Dennis-Hilfinger\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\2_WorldSkills\\Training\\Sao_Paulo_2015\\WS-Skill09-Sao-Paulo-Project-Session-2\\Session-2-Dennis-Hilfinger\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T00:11:14.663Z",
               "EditorCaption": ""
             }
           ]

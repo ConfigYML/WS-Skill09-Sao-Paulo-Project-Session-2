@@ -85,6 +85,12 @@
 	  <MauiXaml Update="CoordinatorPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="EditProfilePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="EventConfirmationPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="FindOutMorePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

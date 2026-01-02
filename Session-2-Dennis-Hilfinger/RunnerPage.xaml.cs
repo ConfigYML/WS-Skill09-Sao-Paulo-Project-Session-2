@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Microsoft.UI.Xaml;
 
 namespace Session_2_Dennis_Hilfinger;
@@ -33,31 +34,53 @@ public partial class RunnerPage : ContentPage, IQueryAttributable
 
     public void ApplyQueryAttributes(IDictionary<string, object> query)
     {
-        user = (User)query["User"];
+        using (var db = new MarathonDB())
+        {
+            user = db.Users.FirstOrDefault(u => u.Email == (query["User"] as User).Email);
+            if (user != null)
+            {
+                var users = db.Users.Where(u => u.Email == user.Email)
+                    .Include(u => u.Runners)
+                        .ThenInclude(r => r.CountryCodeNavigation)
+                    .ToList();
+                user = users.First();
+            }
+            else
+            {
+                DisplayAlert("Error occurred", "User data could not be loaded.", "Ok");
+                return;
+            }
+        }
     }
 
     public async void RegisterForEvent(object? sender, EventArgs e)
     {
-        await DisplayAlert("Work in progress", "This feature is not implemented yet", "Ok");
-        //AppShell.Current.GoToAsync("//RegisterEventPage");
+        ShellNavigationQueryParameters userData = new ShellNavigationQueryParameters()
+        {
+            { "User", user }
+        };
+        await AppShell.Current.GoToAsync("RegisterEventPage", userData);
     }
 
     public async void MyRaceResults(object? sender, EventArgs e)
     {
         await DisplayAlert("Work in progress", "This feature is not implemented yet", "Ok");
-        //AppShell.Current.GoToAsync("//MyRaceResultsPage");
+        //await AppShell.Current.GoToAsync("MyRaceResultsPage");
     }
 
     public async void EditYourProfile(object? sender, EventArgs e)
     {
-        await DisplayAlert("Work in progress", "This feature is not implemented yet", "Ok");
-        //AppShell.Current.GoToAsync("//EditProfilePage");
+        ShellNavigationQueryParameters userData = new ShellNavigationQueryParameters()
+        {
+            { "User", user }
+        };
+        await AppShell.Current.GoToAsync("EditProfilePage", userData);
     }
 
     public async void MySponsorship(object? sender, EventArgs e)
     {
         await DisplayAlert("Work in progress", "This feature is not implemented yet", "Ok");
-        //AppShell.Current.GoToAsync("//MySponsorshipPage");
+        //await AppShell.Current.GoToAsync("MySponsorshipPage");
     }
 
     public async void ContactInformation(object? sender, EventArgs e)
