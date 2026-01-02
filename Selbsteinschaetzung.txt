@@ -1,0 +1,5 @@
+Grundlegend kam ich mit dieser Session besser klar. Jedoch habe ich in der Nachbereitung sehr lange gebraucht (2.5 Stunden). Dies könnte jedoch auch daran liegen, dass ich heute beides davon gemacht habe (mit kleiner Pause) und mein Kopf daher gegen Ende nicht mehr auf Hochtouren lief.
+Es lässt sich jedoch festhalten:
+- Zeit ist momentan immer noch größtes Problem
+- UI muss schneller zustande kommen (raubt zu viel Zeit) -> irgendeine Lösung wie Simons PageBuilder überlegen oder wie in WPF ein "Template" für den Grundaufbau jeder Seite erstellen
+- schneller Daten laden und verarbeiten (eventuell auch Code-Verbesserungen, da er an einigen Stellen bestimmt nicht die performanteste Lösung ist?)
